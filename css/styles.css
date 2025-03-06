@@ -1,0 +1,116 @@
+/* ********* Jons farver og striber ***********/
+
+
+/* ********* Skriftsstørrelser ********** */
+h1 {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    color: red;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* ********* Farver ********** */
+
+.blue {
+    color: blue;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.h1-orange-bold {
+    font-size: 4rem;
+    color: orange;
+    font-weight: bold;
+}
+
+/* ********* sideelementer *********** */
+
+header {
+    border: 1px solid green;
+}
+
+main {
+    border: 1px solid blue;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    border: 1px solid red;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+
+/* **** grid / wireframe ********** */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    border: 1px solid cyan;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 800px;
+}
+
+#header-cta {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+
+}
+
+/* **** Navigation ******* */
+
+header nav ul {
+    color: red;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+header nav ul li {
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-box {
+    border: 2px solid blue;
+    padding: 30px;
+    background-color: silver;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+@media (max-width: 600px){
+    header nav ul {
+        flex-direction: column;
+    }
+
+}
+
