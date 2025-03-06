@@ -30,6 +30,8 @@ h2 {
 /* ********* sideelementer *********** */
 
 header {
+    position: relative;
+    display: inline-block;
     border: 1px solid green;
 }
 
@@ -63,13 +65,17 @@ body {
 .header-image {
     width: 100%;
     max-width: 800px;
+    display: block;
 }
 
 #header-cta {
     position: absolute;
     top: 5vh;
     left: 5vw;
-
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: orange;
 }
 
 /* **** Navigation ******* */
